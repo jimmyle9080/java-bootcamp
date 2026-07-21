@@ -1,0 +1,9 @@
+**/out/
+**/*.class
+.idea/
+*.iml
+.vscode/
+notes/screenshots/
+.env
+**/kubeconfig*
+**/*secret*
