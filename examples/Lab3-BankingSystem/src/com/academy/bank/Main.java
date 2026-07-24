@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);   // the ONE scanner
         BankService bank = new BankService(scanner); // pass it in
-
         boolean running = true;
         while (running) {
             System.out.println("================================");

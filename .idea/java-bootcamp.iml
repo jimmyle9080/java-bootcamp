@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/examples/Lab2-JavaSyntax" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/examples/Lab2-JavaSyntax/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/examples/Lab3-BankingSystem/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/Lab4-MemoryManagement" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

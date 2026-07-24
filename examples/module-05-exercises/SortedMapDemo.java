@@ -1,0 +1,27 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class SortedMapDemo {
+    public static void main(String[] args) {
+        // declare Map<String, Double> prices as new HashMap<>()
+        Map<String, Double> prices = new HashMap<>();
+
+        // put three title → price mappings
+        prices.put("The Hobbit", 12.99);
+        prices.put("Dune", 15.50);
+        prices.put("Annihilation", 9.99);
+
+        // print HashMap key order (unspecified — may vary between runs)
+        System.out.println("HashMap order: " + prices.keySet());
+
+        // create TreeMap<String, Double> sortedPrices from prices
+        Map<String, Double> sortedPrices = new TreeMap<>(prices);
+        System.out.println("TreeMap order: " + sortedPrices.keySet());
+
+        // declare TreeMap<String, Double> tree from prices (type needed for firstKey / lastKey)
+        TreeMap<String, Double> tree = new TreeMap<>(prices);
+        System.out.println("First title: " + tree.firstKey());
+        System.out.println("Last title: " + tree.lastKey());
+    }
+}
